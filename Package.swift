@@ -24,7 +24,7 @@ let package = Package(
         */
         .binaryTarget(
             name: "GenerateStringKeys",
-            url: "https://github.com/ondrejhanslik/GenerateStringKeys/releases/download/1.0.0/GenerateStringKeys.artifactbundle.zip",
+            url: "https://github.com/ondrejhanslik/LocalizationKeyPlugin/releases/download/1.0.0/GenerateStringKeys.artifactbundle.zip",
             checksum: "32d5a1cd19d59d81955373f183588ef290a43fc295920b7c37c8e52084c76f8c"
         ),
         .plugin(
