@@ -2,11 +2,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "GenerateStringKeys",
+    name: "LocalizationKeyPlugin",
+    products: [
+        .plugin(
+            name: "LocalizationKeyPlugin",
+            targets: ["LocalizationKeyPlugin"]
+        )
+    ],
     targets: [
         .executableTarget(
-            name: "GenerateStringKeys",
-            dependencies: []
+            name: "GenerateStringKeys"
+        ),
+        .plugin(
+            name: "LocalizationKeyPlugin",
+            capability: .buildTool(),
+            dependencies: ["GenerateStringKeys"],
+            path: "Plugins"
         )
     ]
 )
