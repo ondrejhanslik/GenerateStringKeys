@@ -25,7 +25,7 @@ let package = Package(
         .binaryTarget(
             name: "GenerateStringKeys",
             url: "https://github.com/ondrejhanslik/LocalizationKeyPlugin/releases/download/1.0.2/GenerateStringKeys.artifactbundle.zip",
-            checksum: "32d5a1cd19d59d81955373f183588ef290a43fc295920b7c37c8e52084c76f8c"
+            checksum: "d3ad83d78854226eeff40a3236992553d75e4344f01bd618187783b1664e27ab"
         ),
         .plugin(
             name: "LocalizationKeyPlugin",
